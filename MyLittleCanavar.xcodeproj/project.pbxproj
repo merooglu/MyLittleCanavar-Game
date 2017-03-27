@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B7EB1B91E89924C006A058E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7EB1B81E89924C006A058E /* AppDelegate.swift */; };
+		1B7EB1BB1E89924C006A058E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7EB1BA1E89924C006A058E /* ViewController.swift */; };
+		1B7EB1BE1E89924C006A058E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7EB1BC1E89924C006A058E /* Main.storyboard */; };
+		1B7EB1C01E89924C006A058E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7EB1BF1E89924C006A058E /* Assets.xcassets */; };
+		1B7EB1C31E89924C006A058E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7EB1C11E89924C006A058E /* LaunchScreen.storyboard */; };
+		1B7EB1CE1E89924C006A058E /* MyLittleCanavarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7EB1CD1E89924C006A058E /* MyLittleCanavarTests.swift */; };
+		1B7EB1D91E89924C006A058E /* MyLittleCanavarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7EB1D81E89924C006A058E /* MyLittleCanavarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B7EB1CA1E89924C006A058E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B7EB1AD1E89924B006A058E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B7EB1B41E89924B006A058E;
+			remoteInfo = MyLittleCanavar;
+		};
+		1B7EB1D51E89924C006A058E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B7EB1AD1E89924B006A058E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B7EB1B41E89924B006A058E;
+			remoteInfo = MyLittleCanavar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B7EB1B51E89924C006A058E /* MyLittleCanavar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLittleCanavar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B7EB1B81E89924C006A058E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B7EB1BA1E89924C006A058E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B7EB1BD1E89924C006A058E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B7EB1BF1E89924C006A058E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B7EB1C21E89924C006A058E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B7EB1C41E89924C006A058E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B7EB1C91E89924C006A058E /* MyLittleCanavarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLittleCanavarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B7EB1CD1E89924C006A058E /* MyLittleCanavarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLittleCanavarTests.swift; sourceTree = "<group>"; };
+		1B7EB1CF1E89924C006A058E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B7EB1D41E89924C006A058E /* MyLittleCanavarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLittleCanavarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B7EB1D81E89924C006A058E /* MyLittleCanavarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLittleCanavarUITests.swift; sourceTree = "<group>"; };
+		1B7EB1DA1E89924C006A058E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B7EB1B21E89924B006A058E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B7EB1C61E89924C006A058E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B7EB1D11E89924C006A058E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B7EB1AC1E89924B006A058E = {
+			isa = PBXGroup;
+			children = (
+				1B7EB1B71E89924C006A058E /* MyLittleCanavar */,
+				1B7EB1CC1E89924C006A058E /* MyLittleCanavarTests */,
+				1B7EB1D71E89924C006A058E /* MyLittleCanavarUITests */,
+				1B7EB1B61E89924C006A058E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B7EB1B61E89924C006A058E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B7EB1B51E89924C006A058E /* MyLittleCanavar.app */,
+				1B7EB1C91E89924C006A058E /* MyLittleCanavarTests.xctest */,
+				1B7EB1D41E89924C006A058E /* MyLittleCanavarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B7EB1B71E89924C006A058E /* MyLittleCanavar */ = {
+			isa = PBXGroup;
+			children = (
+				1B7EB1B81E89924C006A058E /* AppDelegate.swift */,
+				1B7EB1BA1E89924C006A058E /* ViewController.swift */,
+				1B7EB1BC1E89924C006A058E /* Main.storyboard */,
+				1B7EB1BF1E89924C006A058E /* Assets.xcassets */,
+				1B7EB1C11E89924C006A058E /* LaunchScreen.storyboard */,
+				1B7EB1C41E89924C006A058E /* Info.plist */,
+			);
+			path = MyLittleCanavar;
+			sourceTree = "<group>";
+		};
+		1B7EB1CC1E89924C006A058E /* MyLittleCanavarTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B7EB1CD1E89924C006A058E /* MyLittleCanavarTests.swift */,
+				1B7EB1CF1E89924C006A058E /* Info.plist */,
+			);
+			path = MyLittleCanavarTests;
+			sourceTree = "<group>";
+		};
+		1B7EB1D71E89924C006A058E /* MyLittleCanavarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B7EB1D81E89924C006A058E /* MyLittleCanavarUITests.swift */,
+				1B7EB1DA1E89924C006A058E /* Info.plist */,
+			);
+			path = MyLittleCanavarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B7EB1B41E89924B006A058E /* MyLittleCanavar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B7EB1DD1E89924C006A058E /* Build configuration list for PBXNativeTarget "MyLittleCanavar" */;
+			buildPhases = (
+				1B7EB1B11E89924B006A058E /* Sources */,
+				1B7EB1B21E89924B006A058E /* Frameworks */,
+				1B7EB1B31E89924B006A058E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyLittleCanavar;
+			productName = MyLittleCanavar;
+			productReference = 1B7EB1B51E89924C006A058E /* MyLittleCanavar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B7EB1C81E89924C006A058E /* MyLittleCanavarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B7EB1E01E89924C006A058E /* Build configuration list for PBXNativeTarget "MyLittleCanavarTests" */;
+			buildPhases = (
+				1B7EB1C51E89924C006A058E /* Sources */,
+				1B7EB1C61E89924C006A058E /* Frameworks */,
+				1B7EB1C71E89924C006A058E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B7EB1CB1E89924C006A058E /* PBXTargetDependency */,
+			);
+			name = MyLittleCanavarTests;
+			productName = MyLittleCanavarTests;
+			productReference = 1B7EB1C91E89924C006A058E /* MyLittleCanavarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B7EB1D31E89924C006A058E /* MyLittleCanavarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B7EB1E31E89924C006A058E /* Build configuration list for PBXNativeTarget "MyLittleCanavarUITests" */;
+			buildPhases = (
+				1B7EB1D01E89924C006A058E /* Sources */,
+				1B7EB1D11E89924C006A058E /* Frameworks */,
+				1B7EB1D21E89924C006A058E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B7EB1D61E89924C006A058E /* PBXTargetDependency */,
+			);
+			name = MyLittleCanavarUITests;
+			productName = MyLittleCanavarUITests;
+			productReference = 1B7EB1D41E89924C006A058E /* MyLittleCanavarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B7EB1AD1E89924B006A058E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Mehmet Eroğlu";
+				TargetAttributes = {
+					1B7EB1B41E89924B006A058E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					1B7EB1C81E89924C006A058E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1B7EB1B41E89924B006A058E;
+					};
+					1B7EB1D31E89924C006A058E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1B7EB1B41E89924B006A058E;
+					};
+				};
+			};
+			buildConfigurationList = 1B7EB1B01E89924B006A058E /* Build configuration list for PBXProject "MyLittleCanavar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B7EB1AC1E89924B006A058E;
+			productRefGroup = 1B7EB1B61E89924C006A058E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B7EB1B41E89924B006A058E /* MyLittleCanavar */,
+				1B7EB1C81E89924C006A058E /* MyLittleCanavarTests */,
+				1B7EB1D31E89924C006A058E /* MyLittleCanavarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B7EB1B31E89924B006A058E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B7EB1C31E89924C006A058E /* LaunchScreen.storyboard in Resources */,
+				1B7EB1C01E89924C006A058E /* Assets.xcassets in Resources */,
+				1B7EB1BE1E89924C006A058E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B7EB1C71E89924C006A058E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B7EB1D21E89924C006A058E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B7EB1B11E89924B006A058E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B7EB1BB1E89924C006A058E /* ViewController.swift in Sources */,
+				1B7EB1B91E89924C006A058E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B7EB1C51E89924C006A058E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B7EB1CE1E89924C006A058E /* MyLittleCanavarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B7EB1D01E89924C006A058E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B7EB1D91E89924C006A058E /* MyLittleCanavarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B7EB1CB1E89924C006A058E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B7EB1B41E89924B006A058E /* MyLittleCanavar */;
+			targetProxy = 1B7EB1CA1E89924C006A058E /* PBXContainerItemProxy */;
+		};
+		1B7EB1D61E89924C006A058E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B7EB1B41E89924B006A058E /* MyLittleCanavar */;
+			targetProxy = 1B7EB1D51E89924C006A058E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B7EB1BC1E89924C006A058E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B7EB1BD1E89924C006A058E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B7EB1C11E89924C006A058E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B7EB1C21E89924C006A058E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B7EB1DB1E89924C006A058E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B7EB1DC1E89924C006A058E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B7EB1DE1E89924C006A058E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyLittleCanavar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyLittleCanavar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1B7EB1DF1E89924C006A058E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyLittleCanavar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyLittleCanavar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1B7EB1E11E89924C006A058E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyLittleCanavarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyLittleCanavarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyLittleCanavar.app/MyLittleCanavar";
+			};
+			name = Debug;
+		};
+		1B7EB1E21E89924C006A058E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyLittleCanavarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyLittleCanavarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyLittleCanavar.app/MyLittleCanavar";
+			};
+			name = Release;
+		};
+		1B7EB1E41E89924C006A058E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MyLittleCanavarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyLittleCanavarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MyLittleCanavar;
+			};
+			name = Debug;
+		};
+		1B7EB1E51E89924C006A058E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MyLittleCanavarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyLittleCanavarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MyLittleCanavar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B7EB1B01E89924B006A058E /* Build configuration list for PBXProject "MyLittleCanavar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B7EB1DB1E89924C006A058E /* Debug */,
+				1B7EB1DC1E89924C006A058E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B7EB1DD1E89924C006A058E /* Build configuration list for PBXNativeTarget "MyLittleCanavar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B7EB1DE1E89924C006A058E /* Debug */,
+				1B7EB1DF1E89924C006A058E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B7EB1E01E89924C006A058E /* Build configuration list for PBXNativeTarget "MyLittleCanavarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B7EB1E11E89924C006A058E /* Debug */,
+				1B7EB1E21E89924C006A058E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B7EB1E31E89924C006A058E /* Build configuration list for PBXNativeTarget "MyLittleCanavarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B7EB1E41E89924C006A058E /* Debug */,
+				1B7EB1E51E89924C006A058E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B7EB1AD1E89924B006A058E /* Project object */;
+}
