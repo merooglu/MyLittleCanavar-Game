@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B5A15301E8B00DC006F66A2 /* DragImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A152F1E8B00DC006F66A2 /* DragImage.swift */; };
 		1B7EB1B91E89924C006A058E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7EB1B81E89924C006A058E /* AppDelegate.swift */; };
 		1B7EB1BB1E89924C006A058E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7EB1BA1E89924C006A058E /* ViewController.swift */; };
 		1B7EB1BE1E89924C006A058E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7EB1BC1E89924C006A058E /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B5A152F1E8B00DC006F66A2 /* DragImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImage.swift; sourceTree = "<group>"; };
 		1B7EB1B51E89924C006A058E /* MyLittleCanavar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLittleCanavar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B7EB1B81E89924C006A058E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B7EB1BA1E89924C006A058E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				1B7EB1B81E89924C006A058E /* AppDelegate.swift */,
 				1B7EB1BA1E89924C006A058E /* ViewController.swift */,
+				1B5A152F1E8B00DC006F66A2 /* DragImage.swift */,
 				1B7EB1BC1E89924C006A058E /* Main.storyboard */,
 				1B7EB1BF1E89924C006A058E /* Assets.xcassets */,
 				1B7EB1C11E89924C006A058E /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B7EB1BB1E89924C006A058E /* ViewController.swift in Sources */,
+				1B5A15301E8B00DC006F66A2 /* DragImage.swift in Sources */,
 				1B7EB1B91E89924C006A058E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +421,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.MyLittleCanavar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -429,6 +434,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.MyLittleCanavar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -505,6 +511,7 @@
 				1B7EB1DF1E89924C006A058E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B7EB1E01E89924C006A058E /* Build configuration list for PBXNativeTarget "MyLittleCanavarTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +520,7 @@
 				1B7EB1E21E89924C006A058E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B7EB1E31E89924C006A058E /* Build configuration list for PBXNativeTarget "MyLittleCanavarUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +529,7 @@
 				1B7EB1E51E89924C006A058E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
